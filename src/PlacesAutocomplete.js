@@ -352,6 +352,7 @@ class PlacesAutocomplete extends React.Component {
       getInputProps: this.getInputProps,
       getSuggestionItemProps: this.getSuggestionItemProps,
       suggestions: this.state.suggestions,
+      ...this.props,
     });
   }
 }
